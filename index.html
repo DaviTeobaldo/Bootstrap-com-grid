@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site com Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<!-- Cabeçalho -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="images/logo_ods.png" alt="Logo" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Início <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="informacoes.html">Informações</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="dicas.html">Dicas Sustentáveis</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<!-- Carrossel de imagens -->
+<section id="carouselSection" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100 " src="images/ods_1.png" alt="Primeira Imagem">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 " src="images/ods2.png" alt="Segunda Imagem">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 " src="images/ods3.png" alt="Terceira Imagem">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próxima</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Seção de imagens -->
+<section id="imageSection" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="images/OBJETIVO-7.jpg" alt="Imagem 1" class="img-fluid mb-3">
+            </div>
+            <div class="col-md-4">
+                <img src="images/objetivo-8.png" alt="Imagem 2" class="img-fluid mb-3">
+            </div>
+            <div class="col-md-4">
+                <img src="images/ods17.jpg" alt="Imagem 3" class="img-fluid mb-3">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Seção de artigos -->
+<section id="articlesSection" class="container-fluid align-items-center justify-content-center row">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 pb-4">
+                <div class="card">
+                    <img src="images/objetivo-3.jpg" class="card-img-top" alt="Artigo 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Transformando Vidas: Uma Jornada em Direção à Saúde Universal</h5>
+                        <p class="card-text">Cuidar da nossa saúde é a base para uma vida plena e produtiva. No contexto do ODS 3, "Saúde e Bem-Estar", exploramos como a busca pela saúde universal está impactando positivamente comunidades em todo o mundo. Desde melhorias no acesso a serviços médicos até a promoção de hábitos saudáveis, essa jornada está revolucionando a forma como encaramos o cuidado de nossos corpos e mentes. Junte-se a nós nessa emocionante exploração das conquistas e desafios rumo a um mundo mais saudável e resiliente.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/objetivo-12.jpg" class="card-img-top" alt="Artigo 2">
+                    <div class="card-body">
+                        <h5 class="card-title">"Revolução Silenciosa: Redefinindo Nosso Relacionamento com o Consumo</h5>
+                        <p class="card-text">Em um mundo onde o consumo excessivo e o desperdício imperam, o ODS 12, "Consumo e Produção Responsáveis", surge como um chamado para repensarmos nossos hábitos. Este artigo explora as mudanças empolgantes que indivíduos, empresas e governos estão fazendo para adotar práticas mais conscientes e sustentáveis. Desde a redução do uso de plásticos até a promoção da reutilização e reciclagem, estamos testemunhando uma revolução silenciosa que está mudando a maneira como vivemos, criamos e descartamos.</p>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+</section>
+
+<!-- Rodapé -->
+<footer class="text-center p-3 mt-3 bg-info text-light">
+  <section>
+    <a href="#!" class="btn col-2"><i class="bi bi-whatsapp"></i></a>
+    <a href="#!" class="btn col-2"><i class="bi bi-twitter"></i></a>
+    <a href="#!" class="btn col-2"><i class="bi bi-instagram"></i></a>
+  </section>
+  <div class="p-3">
+    2023 <i class="bi bi-c-circle"></i> Desenvolvido por Davi Oliveira Teobaldo | Projeto fictício sem fins comerciais.
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
